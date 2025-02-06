@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('./font/SourceSansPro-Black.otf') format('opentype');
+}
+
+* {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url;
+    background-size: cover;
+}
+
+.button1 {
+    background-color: #C271FF;
+    color: white;
+}
+
+.button2 {
+    background-color: #C271FF;
+    color: white;
+}
+
+.quote_section {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: #C271FF;
+    color: white;
+}
+
+.membersection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #071629; 
+    color: #ffffff;
+}
+
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #071629;
+    align-items: center;
+}
+
+footer {
+    background-color: #071629;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+}
